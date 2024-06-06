@@ -2,23 +2,49 @@
 {
     public class SuplierPostition
     {
-        public Guid Id { get; set; }
-        public Guid SuplierId { get; set; }
-        public string Trademark { get; set; }
-        public double Price { get; set; }
-        public string Aritcle { get; set; }
-        public string PositionCode { get; set; }
-        public string PositionName { get; set; }
+        private List<string> _barCodes;
 
-        public SuplierPostition(Guid id, Guid suplierId, string trademark, double price, string aritcle, string positionCode, string positionName)
+        public SuplierPostition()
         {
-            Id = id;
-            SuplierId = suplierId;
-            Trademark = trademark;
+        }
+
+        public SuplierPostition(string nameBrand, string barCode, int code, double price, string aritcle, int codeWares, string nameWares, int brandCode)
+        {
+            NameBrand = nameBrand;
+            BarCode = barCode;
+            Code = code;
             Price = price;
             Aritcle = aritcle;
-            PositionCode = positionCode;
-            PositionName = positionName;
+            CodeWares = codeWares;
+            NameWares = nameWares;
+            BrandCode = brandCode;
+            _barCodes = barCode?.Split(';').ToList() ?? new List<string>();
         }
+
+        public List<string> BarCodes
+        {
+            get
+            {
+                if (_barCodes == null && !string.IsNullOrEmpty(BarCode))
+                {
+                    _barCodes = BarCode.Split(';').ToList();
+                }
+                return _barCodes;
+            }
+            set
+            {
+                _barCodes = value;
+                BarCode = string.Join(";", _barCodes);
+            }
+        }
+
+        public string NameBrand { get; set; }
+        public string BarCode { get; set; }
+        public int Code { get; set; }
+        public double Price { get; set; }
+        public string Aritcle { get; set; }
+        public int CodeWares { get; set; }
+        public string NameWares { get; set; }
+        public int BrandCode { get; set; }
     }
 }

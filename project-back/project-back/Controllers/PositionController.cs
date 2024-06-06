@@ -14,11 +14,7 @@ namespace project_back.Controllers
 
         public PositionController()
         {
-            supliersPositions = new List<SuplierPostition>();
-            double s= 29.50;
-            
-            supliersPositions.Add(new SuplierPostition(Guid.NewGuid(), Guid.Parse("{608580f4-1d82-4219-af18-25e1fa01ff80}"), "Coca-Cola", s, "article1", "1234567890123", "name1"));
-            supliersPositions.Add(new SuplierPostition(Guid.NewGuid(), Guid.Parse("{608580f4-1d82-4219-af18-25e1fa01ff80}"), "Чумак", s, "article2", "1234567890124", "name2"));
+           
 
         }
 
@@ -34,7 +30,7 @@ namespace project_back.Controllers
             {
                 try
                 {
-                    var suplierPositions = GetAllByUser(Guid.Parse(userIdClaim.Value));
+                    var suplierPositions = GetAllByUser();
                     if (suplierPositions != null)
                     {
                         return Ok(suplierPositions);
@@ -48,10 +44,26 @@ namespace project_back.Controllers
             }
             return BadRequest("User Expired or wrong Role");
         }
-        private List<SuplierPostition> GetAllByUser(Guid UserId)
+        [HttpGet]
+        [Route("test/db")]
+        public IActionResult Get()
         {
-            return supliersPositions.Where(position => position.SuplierId == UserId).ToList();
+            Oracle oracle = new Oracle();
+            var res= oracle.res();
+            return Ok(res);
+        }
+        private List<SuplierPostition> GetAllByUser()
+        {
+            Oracle oracle = new Oracle();
+            return oracle.res();
+        }
+        [HttpPost]
+        [Route("/Create/Changes")]
+        public IActionResult CreateRequest([FromBody]PriceChangeRequest requests)
+        {
+            requests.Status = "pending";
 
+            return Ok();
         }
     }
 }

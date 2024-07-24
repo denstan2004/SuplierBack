@@ -5,6 +5,8 @@ using project_back.Models;
 using project_back.ViewModel;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
+using project_back.Helpers;
+using Microsoft.AspNetCore.Diagnostics;
 
 namespace project_back.Controllers
 {
@@ -13,34 +15,41 @@ namespace project_back.Controllers
     {
         private const string AuthSchemes = CookieAuthenticationDefaults.AuthenticationScheme;
 
-        private List<User> users = new List<User>();
-
-        public LoginController()
-        {
-            users.Add(new User(Guid.Parse("{608580f4-1d82-4230-af18-25e1fa01ff80}"), "manager", "123456", "manager"));
-            users.Add(new User(Guid.Parse("{608580f4-1d82-4219-af18-25e1fa01ff80}"), "suplier", "123456", "suplier"));
-        }
+      
 
         [HttpPost]
-        public async Task<IActionResult> LoginAsync([FromBody] LoginModelVM loginModel)
-        {
+        public async Task<Status<UserRolesOracle>> LoginAsync([FromBody] LoginModelVM loginModel)
+            {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState);
+                return new Status<UserRolesOracle>(-1,"Некоректні данні");
             }
 
-            var user = AuthenticateUser(loginModel.Login, loginModel.Password);
-            if (user == null)
+            Oracle oracle = new Oracle(loginModel.Login, loginModel.Password);
+            Status<UserRolesOracle> status = oracle.GetRole(loginModel.Login, loginModel.Password);
+            
+
+            if (status.Data == null ||(status.Data.IsSupplier == false && status.Data.IsManager == false))
             {
-                return Unauthorized();
+                return new Status<UserRolesOracle>(System.Net.HttpStatusCode.Unauthorized);
             }
-
+            
+            var role = status.Data;
+            
             var claims = new List<Claim>
+    {
+        new Claim(ClaimTypes.Name, loginModel.Login),
+        new Claim("Password", loginModel.Password) // Додаємо пароль до claims
+    };
+
+            if (role.IsManager == true)
             {
-                new Claim(ClaimTypes.Name, user.Name),
-                new Claim("Id", user.Id.ToString()),
-                new Claim(ClaimTypes.Role, user.Role),
-            };
+                claims.Add(new Claim(ClaimTypes.Role, "Manager"));
+            }
+            else if (role.IsSupplier == true)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, "Supplier"));
+            }
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
@@ -55,31 +64,25 @@ namespace project_back.Controllers
                 new ClaimsPrincipal(claimsIdentity),
                 authProperties);
 
-            return Ok(new { Message = "Login successful" });
+            return status;
+        }
+
+
+        [HttpGet]
+        [Route("test")]        
+        public Status  CheckAuthorization()
+        {
+            var userName = User.Identity?.Name;
+            var passwordClaim = User.Claims.FirstOrDefault(c => c.Type == "Password")?.Value;
+            Oracle oracle = new Oracle(userName, passwordClaim);
+            Status<UserRolesOracle> status = oracle.GetRole(userName, passwordClaim);
+            return status;
         }
         [HttpGet]
-        [Route("test")]
-        [Authorize(AuthenticationSchemes = AuthSchemes)]
-        public IActionResult test()
+        [Authorize]
+        public void IsCookieValid()
         {
-            return Ok();
-        }
-        [HttpGet]
-        [Route("cookies")]
-        public IActionResult GetCookies()
-        {
-            var cookies = Request.Cookies.Select(c => new { c.Key, c.Value }).ToList();
-            return Ok(cookies);
-        }
-        [Route("Forbidden")]
-        [HttpGet]
-        public IActionResult Forbiden()
-        {
-            return BadRequest("Upss..");
-        }
-        private User AuthenticateUser(string login, string password)
-        {
-            return users.FirstOrDefault(user => user.Password == password && user.Name == login);
+            
         }
     }
 }

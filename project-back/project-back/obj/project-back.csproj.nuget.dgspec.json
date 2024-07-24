@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[8.0.6, )"
             },
+            "Microsoft.Build": {
+              "target": "Package",
+              "version": "[17.10.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.6, )"
@@ -85,6 +89,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             }
           },
           "imports": [

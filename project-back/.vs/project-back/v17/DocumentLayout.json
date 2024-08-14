@@ -1,0 +1,422 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MID\\Work\\Project\\project-back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|c:\\mid\\work\\project\\project-back\\project-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\mssql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\mssql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\oracle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\oracle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\models\\discountmodels\\margeddiscountmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\models\\discountmodels\\margeddiscountmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\controllers\\positioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\controllers\\positioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\helpers\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\helpers\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\models\\discountmodels\\discountrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\models\\discountmodels\\discountrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\models\\suplierpostition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\models\\suplierpostition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\helpers\\userrolesoracle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\helpers\\userrolesoracle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\viewmodel\\discountposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\viewmodel\\discountposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\viewmodel\\adddiscountvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\viewmodel\\adddiscountvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\viewmodel\\pricechangerequestvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\viewmodel\\pricechangerequestvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\models\\pricechangerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\models\\pricechangerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\models\\enums\\requeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\models\\enums\\requeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\models\\discountmodels\\discountperiodsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\models\\discountmodels\\discountperiodsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\viewmodel\\changerequeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\viewmodel\\changerequeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\viewmodel\\changediscountrequeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\viewmodel\\changediscountrequeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\models\\discountmodels\\storageadressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\models\\discountmodels\\storageadressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|C:\\MID\\Work\\Project\\project-back\\project-back\\viewmodel\\loginmodelvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25DA067-7594-4314-893E-990A96410E30}|project-back\\project-back.csproj|solutionrelative:project-back\\viewmodel\\loginmodelvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DiscountController.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Controllers\\DiscountController.cs",
+              "RelativeDocumentMoniker": "project-back\\Controllers\\DiscountController.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Controllers\\DiscountController.cs",
+              "RelativeToolTip": "project-back\\Controllers\\DiscountController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T09:10:31.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DiscountService.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Services\\DiscountService.cs",
+              "RelativeDocumentMoniker": "project-back\\Services\\DiscountService.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Services\\DiscountService.cs",
+              "RelativeToolTip": "project-back\\Services\\DiscountService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCwAAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T13:46:49.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MSSQL.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\MSSQL.cs",
+              "RelativeDocumentMoniker": "project-back\\MSSQL.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\MSSQL.cs",
+              "RelativeToolTip": "project-back\\MSSQL.cs",
+              "ViewState": "AQIAAEEBAAAAAAAAAAAEwC0BAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:56:27.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PositionController.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Controllers\\PositionController.cs",
+              "RelativeDocumentMoniker": "project-back\\Controllers\\PositionController.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Controllers\\PositionController.cs",
+              "RelativeToolTip": "project-back\\Controllers\\PositionController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:03:33.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RequestController.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Controllers\\RequestController.cs",
+              "RelativeDocumentMoniker": "project-back\\Controllers\\RequestController.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Controllers\\RequestController.cs",
+              "RelativeToolTip": "project-back\\Controllers\\RequestController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T12:08:29.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SuplierPostition.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\SuplierPostition.cs",
+              "RelativeDocumentMoniker": "project-back\\Models\\SuplierPostition.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\SuplierPostition.cs",
+              "RelativeToolTip": "project-back\\Models\\SuplierPostition.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAEwDEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T13:55:39.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MargedDiscountModel.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\DiscountModels\\MargedDiscountModel.cs",
+              "RelativeDocumentMoniker": "project-back\\Models\\DiscountModels\\MargedDiscountModel.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\DiscountModels\\MargedDiscountModel.cs",
+              "RelativeToolTip": "project-back\\Models\\DiscountModels\\MargedDiscountModel.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAEwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:53:20.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Helpers\\Status.cs",
+              "RelativeDocumentMoniker": "project-back\\Helpers\\Status.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Helpers\\Status.cs",
+              "RelativeToolTip": "project-back\\Helpers\\Status.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAEwDIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T12:09:45.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Program.cs",
+              "RelativeDocumentMoniker": "project-back\\Program.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Program.cs",
+              "RelativeToolTip": "project-back\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:55:18.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "project-back\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "project-back\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAiwFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:05:24.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Oracle.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Oracle.cs",
+              "RelativeDocumentMoniker": "project-back\\Oracle.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Oracle.cs",
+              "RelativeToolTip": "project-back\\Oracle.cs",
+              "ViewState": "AQIAANIAAAAAAAAAAAAEwNYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T13:55:35.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\appsettings.json",
+              "RelativeDocumentMoniker": "project-back\\appsettings.json",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\appsettings.json",
+              "RelativeToolTip": "project-back\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-03T10:37:46.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DiscountRequestModel.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\DiscountModels\\DiscountRequestModel.cs",
+              "RelativeDocumentMoniker": "project-back\\Models\\DiscountModels\\DiscountRequestModel.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\DiscountModels\\DiscountRequestModel.cs",
+              "RelativeToolTip": "project-back\\Models\\DiscountModels\\DiscountRequestModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T10:38:38.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DiscountPosition.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\ViewModel\\DiscountPosition.cs",
+              "RelativeDocumentMoniker": "project-back\\ViewModel\\DiscountPosition.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\ViewModel\\DiscountPosition.cs",
+              "RelativeToolTip": "project-back\\ViewModel\\DiscountPosition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:00:45.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserRolesOracle.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Helpers\\UserRolesOracle.cs",
+              "RelativeDocumentMoniker": "project-back\\Helpers\\UserRolesOracle.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Helpers\\UserRolesOracle.cs",
+              "RelativeToolTip": "project-back\\Helpers\\UserRolesOracle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T20:16:41.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddDiscountVM.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\ViewModel\\AddDiscountVM.cs",
+              "RelativeDocumentMoniker": "project-back\\ViewModel\\AddDiscountVM.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\ViewModel\\AddDiscountVM.cs",
+              "RelativeToolTip": "project-back\\ViewModel\\AddDiscountVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T09:02:22.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PriceChangeRequestVM.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\ViewModel\\PriceChangeRequestVM.cs",
+              "RelativeDocumentMoniker": "project-back\\ViewModel\\PriceChangeRequestVM.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\ViewModel\\PriceChangeRequestVM.cs",
+              "RelativeToolTip": "project-back\\ViewModel\\PriceChangeRequestVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:21:13.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PriceChangeRequest.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\PriceChangeRequest.cs",
+              "RelativeDocumentMoniker": "project-back\\Models\\PriceChangeRequest.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\PriceChangeRequest.cs",
+              "RelativeToolTip": "project-back\\Models\\PriceChangeRequest.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:12:51.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RequestStatus.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\Enums\\RequestStatus.cs",
+              "RelativeDocumentMoniker": "project-back\\Models\\Enums\\RequestStatus.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\Enums\\RequestStatus.cs",
+              "RelativeToolTip": "project-back\\Models\\Enums\\RequestStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:16:52.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ChangeRequestStatus.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\ViewModel\\ChangeRequestStatus.cs",
+              "RelativeDocumentMoniker": "project-back\\ViewModel\\ChangeRequestStatus.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\ViewModel\\ChangeRequestStatus.cs",
+              "RelativeToolTip": "project-back\\ViewModel\\ChangeRequestStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:43:14.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DiscountPeriodsModel.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\DiscountModels\\DiscountPeriodsModel.cs",
+              "RelativeDocumentMoniker": "project-back\\Models\\DiscountModels\\DiscountPeriodsModel.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\DiscountModels\\DiscountPeriodsModel.cs",
+              "RelativeToolTip": "project-back\\Models\\DiscountModels\\DiscountPeriodsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:50:43.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ChangeDiscountRequestStatus.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\ViewModel\\ChangeDiscountRequestStatus.cs",
+              "RelativeDocumentMoniker": "project-back\\ViewModel\\ChangeDiscountRequestStatus.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\ViewModel\\ChangeDiscountRequestStatus.cs",
+              "RelativeToolTip": "project-back\\ViewModel\\ChangeDiscountRequestStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T10:31:23.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StorageAdressModel.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\DiscountModels\\StorageAdressModel.cs",
+              "RelativeDocumentMoniker": "project-back\\Models\\DiscountModels\\StorageAdressModel.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\DiscountModels\\StorageAdressModel.cs",
+              "RelativeToolTip": "project-back\\Models\\DiscountModels\\StorageAdressModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:48:25.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\User.cs",
+              "RelativeDocumentMoniker": "project-back\\Models\\User.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\Models\\User.cs",
+              "RelativeToolTip": "project-back\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:14:05.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginModelVM.cs",
+              "DocumentMoniker": "C:\\MID\\Work\\Project\\project-back\\project-back\\ViewModel\\LoginModelVM.cs",
+              "RelativeDocumentMoniker": "project-back\\ViewModel\\LoginModelVM.cs",
+              "ToolTip": "C:\\MID\\Work\\Project\\project-back\\project-back\\ViewModel\\LoginModelVM.cs",
+              "RelativeToolTip": "project-back\\ViewModel\\LoginModelVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T14:01:07.804Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

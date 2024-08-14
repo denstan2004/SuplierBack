@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\project-back",
+    "\\project-back\\project-back",
+    "\\project-back\\project-back\\Controllers",
+    "\\project-back\\project-back\\Models",
+    "\\project-back\\project-back\\Models\\Enums",
+    "\\project-back\\project-back\\Services",
+    "\\project-back\\project-back\\ViewModel"
+  ],
+  "SelectedNode": "\\project-back\\project-back\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

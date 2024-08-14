@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-spinners": "^0.14.1",
+    "xlsx": "^0.18.5"
+  }
+}
